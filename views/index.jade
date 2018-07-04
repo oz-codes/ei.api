@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  div.main
+    form.lookup
+      select(name="endpoint").endpoint
+        option(value="effects") Effects
+        option(value="users") Users
+        option(value="invitations") Invitations
+        option(value="replications") Replications
+        option(value="posts") Posts
+      input(type="text", placeholder="{json: 'here'}", name="json")#json.json
+      input(type="submit", value="test")
+   div.output
+   
+  script(src="/js/main.js") 

@@ -7,8 +7,8 @@ $(function() {
 		$.post("/"+target, {json: json}, function(d) {
 
 			$(".output").fadeOut(300, function() { 	
-				$(".tmp").remove();
-				code = $("<pre><code class='tmp'></code></pre>");
+				$(".t").remove();
+				code = $("<pre class='t'><code class='tmp'></code></pre>");
 				code.html(d);
 				$(".output").append(code);
 				$(".output").fadeIn(300);

@@ -1,1 +1,0 @@
-{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"effectindex.replications"},{"v":2,"unique":true,"key":{"url":1},"name":"url_1","ns":"effectindex.replications","background":true}],"uuid":"6efc15c273314926af5cbc928512cec6"}
